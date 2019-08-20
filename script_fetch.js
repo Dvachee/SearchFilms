@@ -66,7 +66,6 @@ function showFullInfo(){
     movie.innerHTML = '<h2 class="col-12 text-center text-danger">Повторите позже</h2>';
   }
 
-
   fetch(url)
       .then((value)=>{
         if (value.status !== 200){
