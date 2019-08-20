@@ -15,6 +15,10 @@ img {
     text-align: center;
 }
 
+#movies .youtube iframe {
+    max-width: 100%;
+}
+
 .spinner {
     margin: 0 auto;
     width: 100px;
