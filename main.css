@@ -1,6 +1,46 @@
+body {
+    background: url("./img/Decor-Element-5.jpg");
+    background-size: 100%;
+    box-sizing: border-box;
+    background-repeat: repeat-y;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar .container{
+    padding: 21px 0 32px;
+}
+
+.navbar .container .navbar-brand {
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
 }
+.container .jumbotron {
+    background-color: #f2f0f0;
+    border-radius: 20px;
+    box-shadow: 0px 24px 15px 0px rgba(242,240,240,1);
+    padding: 3rem 4rem 2rem;
+}
+
+.container .jumbotron h3 {
+    color: #f600a2;
+    font-size: 30px;
+    font-family: "Open Sans";
+    margin-bottom: 2rem!important;
+}
+
+.container .jumbotron form input {
+    color: #17a2b8;
+    border: #cddae5 solid 2px;
+    border-radius: 30px;
+    background: transparent;
+}
+
 .img_poster{
     height: 360px;
 }
@@ -17,6 +57,32 @@ img {
 #movies .youtube iframe {
     max-width: 100%;
 }
+
+#movies h4 {
+    padding: 30px 0;
+}
+
+#movies .item img {
+    border-radius: 25px;
+    box-shadow: 0px 14px 38px 12px rgba(205,218,229,1);
+}
+
+#movies .item h5 {
+    color: #7801ba;
+    margin-top: 15px;
+}
+
+#movies .item-filmImg img {
+    border-radius: 25px;
+    box-shadow: 0px 14px 38px 12px rgba(205,218,229,1);
+    margin-bottom: 15px;
+}
+
+#movies .item-filmDisc {
+    color: #307dbe;
+    font-weight: 500;
+}
+
 
 .spinner {
     margin: 0 auto;

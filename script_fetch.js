@@ -78,13 +78,13 @@ function showFullInfo(){
         movie.innerHTML = `
           <h4 class="col-12 text-center text-info">${output.name || output.title}</h4>
 
-          <div class="col-12 col-lg-4 text-center">
+          <div class="col-12 col-lg-4 text-center item-filmImg">
             <img class='fullInfoImg' src='${poster}' alt='${output.name || output.title}'>
             ${(output.homepage) ? `<p class="text-center"> <a href="${output.homepage}" target="_blank">Официальная страница</a></p>` : ''}
             ${(output.imdb_id) ? `<p class="text-center"> <a href="https://imdb.com/title/${output.imdb_id}" target="_blank">Страница на IMDB.com</a></p>` : ''}
           </div>
 
-          <div class="col-lg-8 col-12 text-center">
+          <div class="col-lg-8 col-12 text-center item-filmDisc">
             <p>Рейтинг: ${output.vote_average}</p>
             <p>Статус: ${output.status}</p>
             <p>Дата релиза: ${output.first_air_date || output.release_date}</p>
